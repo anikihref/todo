@@ -67,8 +67,7 @@ const TodoForm = () => {
         />
 
         <div className="ml-5 text-lg lg:text-sm md:mt-3 md:ml-0 ">
-          {editingTodo ? `editing todo №${todos.indexOf(editingTodo) + 1}` : 'create todo'}
-          
+          {editingTodo ? `editing todo №${todos.indexOf(editingTodo) + 1}` : 'creating todo...'}
         </div>
       </div>
 
